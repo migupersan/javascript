@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+*{
+	box-sizing: border-box;
+	background-color: black;
+}
+
+body{
+	font-family: 'Montserrat', Sans-serif;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    padding: 90px 20px 0;
+  }
+  
+  .header {
+    background-color: #0769e9;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+  
+    max-width: 992px;
+    margin: 0 auto;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .logo {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+  }
+  
+  .nav-menu {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+  }
+  
+  .nav-menu-item {
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+  }
+  
+  .nav-menu-link {
+    padding: 8px 12px;
+    border-radius: 3px;
+  }
+  
+  .nav-menu-link:hover,
+  .nav-menu-link_active {
+    background-color: #034574;
+    transition: 0.5s;
+  }
+  
+  /* TOGGLE */
+  .nav-toggle {
+    color: white;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60px;
+    cursor: pointer;
+  
+    display: none;
+  }
+  
+  /* MOBILE */
+  @media (max-width: 768px) {
+    body {
+      padding-top: 70px;
+    }
+  
+    .header {
+      height: 60px;
+    }
+  
+    .logo {
+      font-size: 25px;
+      padding: 0 20px;
+      line-height: 60px;
+    }
+  
+    .nav-menu {
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
+      background-color: #0080ff;
+      position: fixed;
+      top: 60px;
+      width: 100%;
+      padding: 20px 0;
+  
+      height: calc(100% - 60px);
+      overflow-y: auto;
+  
+      left: 100%;
+      transition: left 0.3s;
+    }
+  
+    .nav-menu-item {
+      line-height: 70px;
+    }
+  
+    .nav-menu-link:hover,
+    .nav-menu-link_active {
+      background: none;
+      color: #0091ff;
+    }
+  
+    .nav-toggle {
+      display: block;
+    }
+  
+    .nav-menu_visible {
+      left: 0;
+    }
+  
+    .nav-toggle:focus:not(:focus-visible) {
+      outline: none;
+    }
+  }
+
+
+#logo{
+	font-size: 20px ;
+	font-weight: bold ;
+	padding: 24px;
+	padding-left: 70px;	
+}
+
+.Create-Accont{
+	color: rgb(255, 0, 0);
+	padding: 15px;
+	padding-top: 30px;
+	padding-right: 100px;	
+} 
+
+a{
+	text-decoration: none;	
+}
+
+
+            /* Parte do Formulário*/ 
+
+.info{
+	 padding-top: 140px;                 /* ISSO FOI FEITO PARA POSICIONAR CENTRALIZADO...  */ 
+	 padding-right: 20px
+}
+
+#Titulo{
+	color: white;
+	text-align: center;
+	font-size: 24px;
+	padding-bottom: 29px;
+	padding-left: 30px;
+}
+
+.group{
+	text-align: center;
+	border: 0;
+}
+
+
+.campo{
+	margin-bottom: 1em;
+}
+
+.campo label{
+	margin-bottom: 0.2em;
+	color: white;
+	display: block;
+}                             
+
+
+input, button{
+		border-radius: 5px;
+		border-color: #BDBDBD;
+} 
+
+input{
+
+   width: 370px;
+   height: 41px;
+}
+
+#b{	
+    padding-right: 270px;
+    padding-bottom: 5px;
+}
+
+#c{
+    padding-right: 210px;
+    padding-bottom: 5px;
+}
+
+#botao{
+	width: 370px;
+    height: 42px;
+	border: solid;
+	border-radius: 6px ;
+	border-color:rgb(255, 241, 51) ;
+	background: rgb(255, 241, 51);
+	color: black;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#resultados {
+	text-align: center;
+	color: white;
+}
+
+#radio {
+	color: white;
+}
+
+#divi {
+	color: white;
+}
+
+#disor {
+	color: white;
+}
+
+
+#resultados {
+	text-align: center;
+	color: white;
+}
+
+#resultado {
+	text-align: center;
+	color: white;
+}
+
+#wordPress {
+  color: white;
+}
+
+#js {
+  color: white;
+}
+
+#indicacion {
+  text-align: center;
+  color: white;
+}
+
+#solucion {
+	text-align: center;
+	color: white;
+}

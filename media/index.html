@@ -1,0 +1,74 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<title> Operacion Media </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../estilos/estilo-operaciones.css">
+	<script src="../javascript/media.js"></script>
+	<link rel="shortcut icon" href="../imagenes/favicon.png" type="image/x-icon">
+</head>
+<body>
+
+	<nav class="nav">
+		<a href="#" class="logo nav-link">Ej. JavaScript</a>
+		<button class="nav-toggle" aria-label="Abrir menú">
+		  <i class="fas fa-bars"></i>
+		</button>
+		<ul class="nav-menu">
+		  <li class="nav-menu-item">
+			<a href="../index.html" class="nav-menu-link nav-link">Volver a pagina principal</a>
+		  </li>
+		  <li class="nav-menu-item">
+			<a href="../circulos/index.html" class="nav-menu-link nav-link">Circulos</a>
+		  </li>
+		  <li class="nav-menu-item">
+			<a href="../divisor/index.html" class="nav-menu-link nav-link">divisor</a>
+		  </li>
+		</ul>
+	  </nav>
+
+         		<div class="info">     
+		        		<h1 id="Titulo"> Nota media </h1>
+				</div> 
+                
+
+               
+                	 <fieldset class="group"> 
+                	 				<div class="campo">  
+										<label for="worPpress">Nota Wordpress:</label>
+        <input type="text" id="wordPress"><br>
+        <label for="js">Nota JS:</label>
+        <input type="text" id="js"><br>
+        <!-- LOS TRABAJOS SON AHORA EXCLUYENTES, TIENEN UN RADIO BUTTON
+             SI ELIGES UNO, SE DESACTIVA EL OTRO :
+             - EL ID DE TODAS LAS OPCIONES A ELEGIR DEBE SER EL MISMO
+             - EL NAME TAMBIÉN 
+             - OJO: HAY QUE PONER UN VALUE DIFERENTE EN CADA OPCIÓN
+               EN ESTE CASO: trabajowp y trabajojs
+            -->
+        <input type="radio" value="trabajowp" id="trabajo" name="trabajo">
+        <label for="trabajowp">Trabajo extra de Wordpress</label><br>
+        <input type="radio" value="trabajojs" id="trabajo2" name="trabajo" >
+        <label for="trabajojs">Trabajo extra de JavaScript</label><br>
+                            		</div>  
+
+
+                            	
+
+
+									<button id="botao" onclick="calculoNota()">Calcula!</button>
+									<p id="resultado"></p>
+   									<p id="indicacion"></p>
+
+                                
+
+                            	</div>
+                     </fieldset>    
+                </form>
+        
+
+
+
+</body>
+</html>
